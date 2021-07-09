@@ -41,11 +41,11 @@ ___
 ### `day041`: [Basic Personal Website](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day041/Harrison%20Site%20(Rough))
 ### `day046`: [Spotify Time Machine](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day046/project)
 ### `day047`: [Amazon Price Tracker](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day047/Amazon-Price-Scraper-WIP%20copy)
-### `day048`: [Cookie Clicker Automation](https://github.com/pullynnhah/100days/blob/master/days041-050/day048/project)
+### `day048`: [Cookie Clicker Automation](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day048/project)
 ___
 
 ## days051-060
-### `day052`: [Instagram Follower Bot](https://github.com/pullynnhah/100days/blob/master/days051-060/day052/project)
+### `day052`: [Instagram Follower Bot]()
 ___
 
 ## days061-070
@@ -59,4 +59,4 @@ ___
 
 ## days091-100
 ___
-# The Finish Line!
+# 🏁 The Finish Line! 🏁
