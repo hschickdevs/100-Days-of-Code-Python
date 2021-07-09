@@ -6,57 +6,36 @@
 ___
 
 ## days001-010
-### `day001`: [Band Name Generator](https://github.com/pullynnhah/100days/blob/master/days001-010/day001/project)
-### `day002`: [Tip Calculator](https://github.com/pullynnhah/100days/blob/master/days001-010/day002/project)
-### `day003`: [Treasure Island](https://github.com/pullynnhah/100days/blob/master/days001-010/day003/project)
-### `day004`: [Rock Paper Scissors](https://github.com/pullynnhah/100days/blob/master/days001-010/day004/project)
-### `day005`: [Password Generator](https://github.com/pullynnhah/100days/blob/master/days001-010/day005/project)
-### `day006`: [Reeborg Maze](https://github.com/pullynnhah/100days/blob/master/days001-010/day006/reeborg/Project.ipynb)
-### `day007`: [Hangman](https://github.com/pullynnhah/100days/blob/master/days001-010/day007/project)
-### `day008`: [Caesar Cipher](https://github.com/pullynnhah/100days/blob/master/days001-010/day008/project)
-### `day009`: [Secret Auction](https://github.com/pullynnhah/100days/blob/master/days001-010/day009/project)
-### `day010`: [Calculator](https://github.com/pullynnhah/100days/blob/master/days001-010/day010/project)
+### `day002`: [Tip Calculator](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days001-010/day002/project)
+### `day005`: [Password Generator](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days001-010/day005)
+### `day007`: [Hangman](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days001-010/day007/project)
+### `day008`: [Caesar Cipher](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days001-010/day008/project)
 ___
 
 ## days011-020
-### `day011`: [Blackjack](https://github.com/pullynnhah/100days/blob/master/days011-020/day011/capstone)
-### `day012`: [Guessing Game](https://github.com/pullynnhah/100days/blob/master/days011-020/day012/project)
-### `day013`: No project today
-### `day014`: [Higher Lower](https://github.com/pullynnhah/100days/blob/master/days011-020/day014/project)
-### `day015`: [Coffee Machine](https://github.com/pullynnhah/100days/blob/master/days011-020/day015/project)
-### `day016`: [Coffee Machine](https://github.com/pullynnhah/100days/blob/master/days011-020/day016/project)
-### `day017`: [Quiz](https://github.com/pullynnhah/100days/blob/master/days011-020/day017/project)
-### `day018`: [Hirst Painting](https://github.com/pullynnhah/100days/blob/master/days011-020/day018/project)
-### `day019`: [Turtle Race](https://github.com/pullynnhah/100days/blob/master/days011-020/day019/project)
-### `day020`: No project today
+### `day011`: [Blackjack](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days011-020/day011/Blackjack%20Game%20Capstone)
+### `day016`: [Coffee Machine](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days011-020/day016/project)
+### `day017`: [Quiz](https://github.com/hschickdevs/100-Days-of-Code-Python/blob/main/days011-020/day017/project/quiz.py)
+### `day018`: [Hirst Painting](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days011-020/day018/project)
+### `day019`: [Turtle Race](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days011-020/day019/project)
 ___
 
-## days021-030
-### `day021`: [Snake Game](https://github.com/pullynnhah/100days/blob/master/days021-030/day021/project)
-### `day022`: [Pong](https://github.com/pullynnhah/100days/blob/master/days021-030/day022/project)
-### `day023`: [Crossing Game](https://github.com/pullynnhah/100days/blob/master/days021-030/day023/capstone)
-### `day024`: [Mail Merge](https://github.com/pullynnhah/100days/blob/master/days021-030/day024/project)
-### `day025`: [U.S. States Game](https://github.com/pullynnhah/100days/blob/master/days021-030/day025/project)
-### `day026`: [Nato Phonetic Alphabet](https://github.com/pullynnhah/100days/blob/master/days021-030/day026/project)
-### `day027`: [Miles to Km Converter](https://github.com/pullynnhah/100days/blob/master/days021-030/day027/project)
-### `day028`: [Pomodoro](https://github.com/pullynnhah/100days/blob/master/days021-030/day028/project)
-### `day029`: [Password Manager](https://github.com/pullynnhah/100days/blob/master/days021-030/day029/project)
-### `day030`: [Advanced Password Manager](https://github.com/pullynnhah/100days/blob/master/days021-030/day030/project)
+## days021-030 (GUI and Animation)
+### `day021`: [Snake Game](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days021-030/day021/project)
+### `day022`: [Pong](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days021-030/day022/project)
+### `day025`: [U.S. States Game](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days021-030/day025/US%20States%20Game%20(turtle)%20copy)
+### `day026`: [Nato Phonetic Alphabet](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days021-030/day026/project)
+### `day028`: [Pomodoro](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days021-030/day028/Pomodoro%20Technique%20(tk)%20copy)
+### `day030`: [Advanced Password Manager](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days021-030/day030/project)
 ___
 
 ## days031-040
-### `day031`: [Flashcard](https://github.com/pullynnhah/100days/blob/master/days031-040/day031/capstone)
-### `day032`: [Birthday Wisher](https://github.com/pullynnhah/100days/blob/master/days031-040/day032/project)
-### `day033`: [ISS Notifier](https://github.com/pullynnhah/100days/blob/master/days031-040/day033/project)
-### `day034`: [Quizzler](https://github.com/pullynnhah/100days/blob/master/days031-040/day034/project)
-### `day035`: [Rain Alert](https://github.com/pullynnhah/100days/blob/master/days031-040/day035/project)
+### `day031`: [Flashcard](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days031-040/day031/capstone)
+### `day033`: [ISS Notifier](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days031-040/day033/ISS%20API%20(requests%2C%20APIs)%20copy)
+### `day034`: [Quizzler](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days031-040/day034/project)
 ### `day036`: [Stock Alert](https://github.com/pullynnhah/100days/blob/master/days031-040/day036/project)
-### `day037`: [Pixela Reading Tracker](https://github.com/pullynnhah/100days/blob/master/days031-040/day037/project)
-- Is not exactly a project.
 ### `day038`: [Workout Tracker](https://github.com/pullynnhah/100days/blob/master/days031-040/day038/project)
 ### `day039`: [Cheap Flight Finder for One](https://github.com/pullynnhah/100days/blob/master/days031-040/day039/capstone)
-### `day040`: [Flight Club](https://github.com/pullynnhah/100days/blob/master/days031-040/day040/capstone)
-#### - [Flight Registration](https://replit.com/@paulaabuenor/FlightRegistration?v=1)
 ___
 
 ## days041-050

@@ -1,0 +1,13 @@
+1. Add tkinter interface:
+    - when "email alerts" is checked, prompt user for email.
+    - when sms is checked, prompt user for their full phone number.
+
+    tkinter colors:
+    - BGCOLOR = #FAF1E6
+    - Nice blue color = #DEEDF0
+
+2. Organize the project
+
+3. Hide sensitive keys/passwords
+
+4. Add a log where all functions report to it after every report is generated.
