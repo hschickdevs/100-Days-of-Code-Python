@@ -1,0 +1,42 @@
+/*TAG Selectors*/
+h1 {
+    color: red;
+    font-size: 150px;
+}
+
+/*CLASS Selectors*/
+.bacon {
+    background-color: green;
+}
+.broccoli {
+    background-color: red;
+}
+
+.circular {
+    border-radius: 100%;
+}
+/*ID Selectors*/
+#first {
+    color: darkred;
+    font-size: 60px;
+    text-align: center;
+}
+
+#second {
+    color: brown;
+    font-size: 40px;
+    text-align: center;
+}
+
+#third {
+    color: indianred;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+/*PSEUDO-CLASS Selectors*/
+
+img:hover {
+    background-color: gold;
+}
