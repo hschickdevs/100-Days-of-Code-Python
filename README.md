@@ -34,7 +34,7 @@ ___
 ### `day033`: [ISS Notifier](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days031-040/day033/ISS%20API%20(requests%2C%20APIs)%20copy)
 ### `day034`: [Quizzler](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days031-040/day034/project)
 ### `day036`: [Stock Alert](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days031-040/day036/Watchlist%20Report%20(Alpha%20Vantage%2C%20D7%20Networks%2C%20SMTP))
-### `day039`: [Cheap Flight Finder (Upload to separate repo)]()
+### `day039`: [Cheap Flights Finder (WIP)](https://github.com/hschickdevs/flight-deals-finder-wip)
 ___
 
 ## days041-050
