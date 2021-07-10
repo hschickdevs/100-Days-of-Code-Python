@@ -40,7 +40,7 @@ ___
 ## days041-050
 ### `day041`: [Basic Personal Website](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day041/Harrison%20Site%20(Rough))
 ### `day046`: [Spotify Time Machine](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day046/project)
-### `day047`: [Amazon Price Tracker](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day047/Amazon-Price-Scraper-WIP%20copy)
+### `day047`: [Amazon Price Tracker (WIP)](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day047/Amazon-Price-Scraper-WIP%20copy)
 ### `day048`: [Cookie Clicker Automation](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day048/project)
 ___
 
