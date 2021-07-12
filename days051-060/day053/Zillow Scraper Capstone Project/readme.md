@@ -1,25 +1,20 @@
 ### How to Setup the Zillow Scraper:
 
-1. Go to https://docs.google.com/forms/ and create your own form:
+1. Go to https://chromedriver.chromium.org/downloads and download the webdriver corresponding to your version of chrome:
 
-![Step 1](image_assets/forms1.png)
+![Step 1](image_assets/webdriver.png)
 
-2. Add these 3 questions to the form, make all questions "short-answer":
+2. Place the webdriver executable in a place that you will remember:
 
-![Step 2](image_assets/forms2.png)
 
-3. Click send and copy the link address of the form. You will need to use this in your program.
+3. Copy the webdriver's filepath and enter it into the top of the main.py file.
 
-![Step 3](image_assets/forms3.png)
 
-4. Paste the form's url into the user interface for the scraper as directed.
-
+4. You should be good to go!
 ---
 
 ### To view the results of the scraper:
 
-![Results](image_assets/forms4.png)
-
-Click on the responses tab, and click the google sheets icon to generate a google sheets spreadsheet with the responses.
+The scraper's search results are saved to csv files inside of the "csv_output" directory that is already inside of the project folder.
 
 ---

@@ -2,10 +2,12 @@ PROJECT OUTLINE:
 
 Google forms link: https://docs.google.com/forms/d/e/1FAIpQLSdWQvaUAsgH8tzmoPmIBEYxBF4u3-nxGg-dN3Cdk0eQ1zvNSA/viewform?usp=sf_link
 
-1. Create simple user interface that allows for entering the following:
+DONE 1. Create simple user interface that allows for entering the following:
     - City
     - Rent/Buy
     - Max Price
     - Minimum Bedrooms & Bathrooms
 
-2. Use the information given to try to create a zillow search URL
+DONE 2. Use the information given to try to create a zillow search URL
+
+WIP 3. Use the urls generated to download each site with requests and BS4 to generate more in-depth listing information.

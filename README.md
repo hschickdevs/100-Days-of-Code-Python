@@ -45,7 +45,8 @@ ___
 ___
 
 ## days051-060
-### `day052`: [Instagram Follower Bot]()
+### `day052`: [Instagram Follower Bot](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days051-060/day052/Instagram%20Follower%20Bot%20(patched%20by%20Instagram))
+### `day053`: [Zillow Scraper WIP](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days051-060/day053/Zillow%20Scraper%20Capstone%20Project)
 ___
 
 ## days061-070
