@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Twits</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="top">
+        <div class="title"><h1><b>The Wall Street Top 2</b></h1></div>
+    </div>
+    <div class="content">
+        <div class="card">
+            <h2>{{ article1_title }}</h2>
+            <p class="text"> {{article1_author}} </p>
+            <a href="{{ url_for('full_article', article_num=1) }}">See more</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="card">
+            <h2>{{ article2_title }}</h2>
+            <p class="text">{{ article2_author }}</p>
+            <a href="{{ url_for('full_article', article_num=2) }}">See more</a>
+        </div>
+    </div>
+</div>
+</body>
+<footer>
+    <p>Copyright @ 2021 Stock Twits LLC.</p>
+</footer>
+</html>
