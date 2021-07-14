@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 rand_int = random.randint(1, 10)
 
+
 @app.route("/")
 def hello_world():
     return '<h1 style="text-align: center">Guess a number between 1 and 10!</h1>'
