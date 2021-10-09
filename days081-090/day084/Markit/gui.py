@@ -131,12 +131,11 @@ class MainWindow(sg.Window):
                         if not os.path.isdir(target_folder):
                             os.makedirs(target_folder)
 
-                    except Exception:
+                    except Exception as e:
                         sg.PopupError('FATAL ERROR: Could not access target output folder.\nPlease make sure that the '
-                                      'target folder is valid.\nIf this issue persists, please contact '
-                                      'hschickdevs@gmail.com',
+                                      f'target folder is valid.\n{e}',
                                       title='Error', keep_on_top=True, font=('Arial', 15, 'normal'), icon=APP_ICON)
-                        exit(1)
+                        continue
 
                     image_mode = "multi" if len(image_dir_input_path) > len(image_input_path) else "single"
                     wm_opacity = float(values['--WM_OPACITY--'])
