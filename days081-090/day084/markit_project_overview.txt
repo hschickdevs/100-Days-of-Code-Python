@@ -1,0 +1,16 @@
+WE Project Outline:
+
+1. In the GUI, the user is prompted for either a single image or a directory of images to append the watermark.
+
+2. The GUI prompts the user to upload the watermark image to be appended to the images.
+
+3. The user selects the desired location of the watermark on the image. And (maybe) can use a sliding bar to select transparency.
+
+4. The user selected the desired output location for the modified images.
+
+5. The user can click 'preview' to see a preview of the image with the watermark once all inputs are satisfied.
+
+6. Once the user clicks 'run', the program iterates through each image and adds the watermark using Pillow, or if an error occurs it reports the error to the logger.
+(Error conditions: if the image is smaller than the watermark on the x or the y, if the image is not a supported filetype.)
+
+7. Once the program is finished, the user can find the successful images in the selected output folder.
