@@ -58,8 +58,8 @@ ___
 ___
 
 ## days081-100 - Portfolio Projects (self-guided)
-### `day081`: [Text-to-Morse Converter]()
-### `day083`: [TicTacToe Game]()
-### `day084`: [Markit - Image Watermarking Software]()
+### `day081`: [Text-to-Morse Converter](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days081-090/day081/text-to-morse-project)
+### `day083`: [TicTacToe Game](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days081-090/day083)
+### `day084`: [Markit - Image Watermarking Software](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days081-090/day084/Markit)
 ___
 # 🏁 The Finish Line! 🏁
