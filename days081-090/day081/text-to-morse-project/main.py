@@ -3,60 +3,6 @@ import os
 
 db_location = os.path.join(os.getcwd(), 'morse_db.json')
 
-overwrite_db = True
-if not os.path.exists(db_location) or overwrite_db:
-    with open(db_location, 'w') as outfile:
-        morse_database = {
-            "0": "----- ",
-            "1": ".---- ",
-            "2": "..--- ",
-            "3": "...-- ",
-            "4": "....- ",
-            "5": "..... ",
-            "6": "-.... ",
-            "7": "--... ",
-            "8": "---.. ",
-            "9": "----. ",
-            "a": ".- ",
-            "b": "-... ",
-            "c": "-.-. ",
-            "d": "-.. ",
-            "e": ". ",
-            "f": "..-. ",
-            "g": "--. ",
-            "h": ".... ",
-            "i": ".. ",
-            "j": ".--- ",
-            "k": "-.- ",
-            "l": ".-.. ",
-            "m": "-- ",
-            "n": "-. ",
-            "o": "--- ",
-            "p": ".--. ",
-            "q": "--.- ",
-            "r": ".-. ",
-            "s": "... ",
-            "t": "- ",
-            "u": "..- ",
-            "v": "...- ",
-            "w": ".-- ",
-            "x": "-..- ",
-            "y": "-.-- ",
-            "z": "--.. ",
-            ".": ".-.-.- ",
-            ",": "--..-- ",
-            "?": "..--.. ",
-            "!": "-.-.-- ",
-            "-": "-....- ",
-            "/": "-..-. ",
-            "@": ".--.-. ",
-            "(": "-.--. ",
-            ")": "-.--.- ",
-            " ": "/ "
-        }
-        json.dump(morse_database, outfile, indent=2)
-
-
 def text_to_morse(user_message, database_location) -> str:
     with open(database_location) as infile:
         morse_db = json.load(infile)
