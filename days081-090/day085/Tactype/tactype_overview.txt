@@ -1,0 +1,2 @@
+Resources:
+Random english word library: https://pypi.org/project/Random-Word/

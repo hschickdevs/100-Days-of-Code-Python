@@ -1,5 +1,5 @@
 # NOTE: Jinja comes bundled with flask, so there is no need to install it.
-import datetime
+from datetime import datetime
 import requests
 from flask import Flask, render_template
 import random
@@ -15,7 +15,7 @@ def hello_world():
 
 @app.route("/guess/<name>")
 def guessify(name):
-    year = datetime.datetime.now().year
+    year = datetime.now().year
     gender_response = requests.get(f'https://api.genderize.io?name={name}').json()
     gender = gender_response["gender"]
     prob = gender_response['probability']

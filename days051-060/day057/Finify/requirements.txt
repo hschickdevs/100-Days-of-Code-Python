@@ -1,0 +1,2 @@
+finnhub-python
+python-dotenv

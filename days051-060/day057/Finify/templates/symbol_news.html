@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finify - {{ symbol.upper() }}</title>
+</head>
+<body>
+    <h1 align="center"><u>7 Day News for {{ symbol.upper() }}</u></h1>
+    <div class="articles" align="center">
+        <!-- {% for article in articles %}
+            <div class="article">
+                {% if article["image"]|length > 0 %}
+                    <img width=350 src="{{ article['image'] }}" alt="Article Image"/>
+                {% else %}
+                    <img width=350 src="./assets/article.jpeg" alt="Article Image"/>
+                {% endif %}
+                <h2>{{ article['headline'] }}</h2>
+                <a href="{{ article['url'] }}">Read More</a>
+            </div>
+            <br>
+        {% endfor %} -->
+    </div>
+</body>
+</html>
