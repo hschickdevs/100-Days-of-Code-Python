@@ -4,7 +4,7 @@ from flask import Flask, render_template
 import random
 from ratelimit import limits, sleep_and_retry
 
-from backend import get_stock_news
+from backend.finnhub_cli import get_stock_news
 
 app = Flask(__name__)
 
