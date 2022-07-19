@@ -2,6 +2,7 @@ from datetime import datetime
 import requests
 from flask import Flask, render_template
 import random
+from ratelimit import limits, sleep_and_retry
 
 from backend import get_stock_news
 
@@ -12,8 +13,11 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+
+@sleep_and_retry
+@limits(59, 60)
 @app.route("/<symbol>")
-def symbol(symbol: str):
+def symbol_news(symbol: str):
     articles = get_stock_news(symbol)
     return render_template('symbol_news.html', symbol=symbol, articles=articles)
 

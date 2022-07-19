@@ -4,7 +4,7 @@
 
 1. Navigate to the Finify directory from the project root:
    ```bash
-   cd days051-060/day057/Finify
+   cd days051-060/day057/FinWeek
    ```
 2. Install the python requirements:
     ```bash

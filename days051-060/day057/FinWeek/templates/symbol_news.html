@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinWeek - {{ symbol.upper() }}</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <div class="top">
+        <div class="title">
+            <h1>Weekly News Related to <u><b>{{ symbol.upper() }}</b></u></h1>
+        </div>
+    </div>
+    <div class="content" align="center">
+        {% if articles|length > 0 %}
+            {% for article in articles %}
+                <div class="card">
+                    <div class="date"><p>{{ article["date"]}}</p></div>
+                    {% if article["image"]|length > 0 %}
+                        <img width=400 src="{{ article['image'] }}" alt="Article Image"/>
+                    {% else %}
+                        <img width=400 src="https://nbhc.ca/sites/default/files/styles/article/public/default_images/news-default-image%402x_0.png?itok=B4jML1jF" alt="Article Image"/>
+                    {% endif %}
+                    <h1>{{ article["source"] }}</h1>
+                    <h2>{{ article['headline'] }}</h2>
+                    <a href="{{ article['url'] }}">Read More</a>
+                </div>
+                <br>
+            {% endfor %}
+        {% else %}
+            <img src="https://media4.giphy.com/media/7SF5scGB2AFrgsXP63/giphy.gif?cid=ecf05e47byugeely4c37egaejdmd6k2bl8sz8llpur7b9d29&rid=giphy.gif&ct=g">
+            <h2>Sorry, we couldn't find any news for {{ symbol.upper() }}</h2>
+        {% endif %}
+    </div>
+    <footer>
+        <p>&copy; 2022 Harrison Schick</p>
+    </footer>
+</body>
+</html>
