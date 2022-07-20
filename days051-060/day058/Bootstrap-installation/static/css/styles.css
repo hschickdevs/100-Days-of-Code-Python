@@ -1,0 +1,16 @@
+.avatar {
+  height: 45px;
+  width: 45px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  object-fit: cover;
+}
+
+#title {
+  font-family: 'Roboto Mono', monospace;
+}
+
+#navbar-custom {
+  background-color: #5366E3;
+}
