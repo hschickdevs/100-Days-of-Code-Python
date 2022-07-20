@@ -7,10 +7,46 @@
   object-fit: cover;
 }
 
-#title {
+.roboto {
   font-family: 'Roboto Mono', monospace;
+}
+
+.intro {
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 7% 20%;
 }
 
 #navbar-custom {
   background-color: #5366E3;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.category-btn {
+  background-color: #5366E3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  height: 250px;
+  width: 250px;
+  justify-content:center;
+  border-radius: 25px;
+  filter: drop-shadow(8px 8px 6px grey);
+}
+.category-btn:hover {
+  background:white;
+  color: #5366E3;
+}
+
+.category-btn-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  align: center;
 }
