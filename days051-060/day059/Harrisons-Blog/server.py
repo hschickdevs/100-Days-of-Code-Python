@@ -1,12 +1,6 @@
-from flask import Flask, render_template
-import requests
+from flask import Flask, render_template, request
 
-
-BLOG_URL = "https://api.npoint.io/d9f83de217d4c0cc9a66"
-
-def load_posts():
-    return requests.get(BLOG_URL).json()
-
+from scripts.backend import load_posts, send_contact_email
 
 app = Flask(__name__)
 
@@ -16,23 +10,34 @@ def home():
     return render_template("index.html", posts=load_posts())
 
 
-@app.route('/index.html')
+@app.route('/index')
 def index():
     return render_template("index.html", posts=load_posts())
 
 
-@app.route('/about.html')
+@app.route('/about')
 def about():
     return render_template('about.html')
 
 
-@app.route('/contact.html')
+@app.route('/contact', methods=["GET", "POST"])
 def contact():
-    return render_template('contact.html')
+    if request.method == "POST":
+        subject = f"Contact Form Submission from {request.form['name']}"
+        message = f"Name: {request.form['name']}\n" \
+                  f"Email: {request.form['email']}\n" \
+                  f"Phone #: {request.form['phone']}\n" \
+                  f"\nMessage:\n{request.form['message']}"
+        send_contact_email(subject, message)
+        return render_template('contact.html', form_submitted=True)
+    else:    
+        return render_template('contact.html', form_submitted=False)
 
-@app.route('/post.html')
+
+@app.route('/post')
 def post():
     return render_template('post.html')
+
 
 @app.route('/post/<int:p_id>')
 def get_post(p_id):
