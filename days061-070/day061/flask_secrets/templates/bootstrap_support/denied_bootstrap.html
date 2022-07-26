@@ -1,0 +1,21 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Login Denied{% endblock %}
+
+{% block styles %}
+  {{ super() }}
+  <style>
+    h1 {
+      color: red;
+    }
+  </style>
+{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-fixed-top">
+  <!-- ... -->
+</div>
+{% endblock %}
+
+{% block content %}
+  <h1>Login Denied</h1>
+{% endblock %}

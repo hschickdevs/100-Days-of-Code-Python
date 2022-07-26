@@ -1,0 +1,20 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Login{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-fixed-top">
+  <!-- ... -->
+</div>
+{% endblock %}
+
+{% block content %}
+	<div class="container">
+		<h1>Login</h1>
+		<form method="POST" action="{{ url_for('login') }}">
+            <!-- Create a form using the Bootstrap-Flask quick_form tool (reduces debug-ability) -->
+			{{ wtf.quick_form(form, novalidate=True) }}
+		</form>
+	</div>
+{% endblock %}

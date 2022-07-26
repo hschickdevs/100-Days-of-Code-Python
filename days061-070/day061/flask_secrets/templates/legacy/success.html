@@ -1,0 +1,13 @@
+<!-- 1. Specify template inheritance target/extension -->
+{% extends "base_flask_template.html" %}
+
+<!-- 2. Specify "title" block content -->
+{% block title %}Login Success{% endblock %}
+
+<!-- 3. Specify "content" block content -->
+{% block content %}
+	<div class="container">
+		<h1>Welcome, {{ form.username.data }}!</h1>
+		<iframe src="https://giphy.com/embed/Ju7l5y9osyymQ" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+	</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+<!-- 1. Specify template inheritance target/extension -->
+{% extends "base_flask_template.html" %}
+
+<!-- 2. Specify "title" block content -->
+{% block title %}Login Failed{% endblock %}
+
+<!-- 3. Extent styling from the templates "styling" block using the super() block -->
+<!-- {% block styling %}
+	Reference the default block using super(), then add functionality:
+	{{ super() }}
+	h1 {
+		color: red;
+	}
+{% endblock %} -->
+
+<!-- 4. Specify "content" block elements -->
+{% block content %}
+	<div class="container">
+		<h1>Your account details were denied...</h1>
+		<iframe src="https://giphy.com/embed/1xeVd1vr43nHO" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+		<p><a href="https://giphy.com/gifs/cheezburger-funny-dog-fails-1xeVd1vr43nHO">via GIPHY</a></p>
+	</div>
+{% endblock %}

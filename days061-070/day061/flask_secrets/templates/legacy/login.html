@@ -1,0 +1,25 @@
+<!-- 1. Specify template inheritance target/extension -->
+{% extends "base_flask_template.html" %}
+
+<!-- 2. Specify "title" block content -->
+{% block title %}Login{% endblock %}
+
+<!-- 3. Specify "content" block content -->
+{% block content %}
+	<div class="container">
+		<h1>Login</h1>
+		<form method="POST" action="{{ url_for('login') }}">
+			{{ form.csrf_token }}
+			<p>
+				{{ form.username.label }} <br> {{ form.username(size=30) }}
+			</p>
+			<p>
+				{{ form.password.label }} <br> {{ form.password(size=30) }}
+			</p>
+			<p>
+				{{ form.email.label }} <br> {{ form.email(size=30) }}
+			</p>
+			{{ form.submit }}
+		</form>
+	</div>
+{% endblock %}
