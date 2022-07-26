@@ -47,11 +47,14 @@ ___
 ## days051-060
 ### `day052`: [Instagram Follower Bot](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days051-060/day052/Instagram%20Follower%20Bot%20(patched%20by%20Instagram))
 ### `day053`: [Zillow Scraper WIP](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days051-060/day053/Zillow%20Scraper%20Capstone%20Project)
-### `day056`: [harrisonschick.com](https://github.com/hschickdevs/personal-site)
-### `day057`: [FinWeek - Basic Stock News Webapp](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days051-060/day057/FinWeek)
+### `day056`: [harrisonschick.com - Personal Website](https://github.com/hschickdevs/personal-site)
+### `day057`: [FinWeek - Basic Stock News Website](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days051-060/day057/FinWeek)
+### `day059`: [Harrison's Developer Blog - Webapp](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days051-060/day059)
 ___
 
 ## days061-070
+
+### `day062`: [Coffee & Wifi - Webapp](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days061-070/day062)
 ___
 
 ## days071-080
