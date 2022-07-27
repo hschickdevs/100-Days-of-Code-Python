@@ -55,6 +55,7 @@ ___
 ## days061-070
 
 ### `day062`: [Coffee & Wifi - Webapp](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days061-070/day062)
+### `day063`: [Virtual Bookshelf - Website](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days061-070/day063)
 ___
 
 ## days071-080
