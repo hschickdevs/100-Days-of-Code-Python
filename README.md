@@ -2,7 +2,7 @@
 
 🚨 The `requirements.txt` contains all the packages I have on my venv, so some packages aren't used at all in the course.
 
-🚨 This repository contains the codefiles for all 100 days of the course, but below are the links my projects that were the most interesting/most signifigant to me throughout the course:
+🚨 This repository contains the codefiles for all 100 days of the course, but below are the links my projects that were the **_most interesting/most signifigant_** to me throughout the course:
 ___
 
 ## days001-010
@@ -38,15 +38,15 @@ ___
 ___
 
 ## days041-050
-### `day041`: [Basic Personal Website](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day041/Harrison%20Site%20(Rough))
+<!-- ### `day041`: [Basic Personal Website](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day041/Harrison%20Site%20(Rough)) -->
 ### `day046`: [Spotify Time Machine](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day046/project)
-### `day047`: [Amazon Price Tracker (WIP)](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day047/Amazon-Price-Scraper-WIP%20copy)
+### `day047`: [Amazon Price Tracker (Extended WIP)](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day047/Amazon-Price-Scraper-WIP%20copy)
 ### `day048`: [Cookie Clicker Automation](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days041-050/day048/project)
 ___
 
 ## days051-060
 ### `day052`: [Instagram Follower Bot](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days051-060/day052/Instagram%20Follower%20Bot%20(patched%20by%20Instagram))
-### `day053`: [Zillow Scraper WIP](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days051-060/day053/Zillow%20Scraper%20Capstone%20Project)
+### `day053`: [Zillow Web Scraper](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days051-060/day053/Zillow%20Scraper%20Capstone%20Project)
 ### `day056`: [harrisonschick.com - Personal Website](https://github.com/hschickdevs/personal-site)
 ### `day057`: [FinWeek - Basic Stock News Website](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days051-060/day057/FinWeek)
 ### `day059`: [Harrison's Developer Blog - Webapp](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days051-060/day059)
@@ -54,8 +54,9 @@ ___
 
 ## days061-070
 
-### `day062`: [Coffee & Wifi - Webapp](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days061-070/day062)
-### `day063`: [Virtual Bookshelf - Website](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days061-070/day063)
+### `day062`: [Coffee & Wifi - CRUD Webapp](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days061-070/day062)
+### `day063`: [Virtual Bookshelf - CRUD Website](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days061-070/day063)
+### `day064`: [My Top 10 Movies - CRUD Website](https://github.com/hschickdevs/100-Days-of-Code-Python/tree/main/days061-070/day064)
 ___
 
 ## days071-080
