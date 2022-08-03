@@ -55,6 +55,7 @@ def edit(movie_id):
     
     return render_template("edit.html", form=form)
 
+
 @app.route("/delete/<int:movie_id>", methods=["GET", "POST"])
 def delete(movie_id):
     del_movie = Movie.query.filter_by(id=movie_id).first()
@@ -63,6 +64,7 @@ def delete(movie_id):
     db.session.commit()
     
     return redirect(url_for("home"))
+
 
 @app.route("/search", methods=["GET", "POST"])
 def search_movies():
@@ -74,7 +76,8 @@ def search_movies():
         return render_template("select.html", movies=movies)
     
     return render_template("add.html", form=form)
-    
+
+
 @app.route("/add/<int:tmdb_movie_id>", methods=["GET", "POST"])
 def add_movie(tmdb_movie_id):
     movie_data = tmdb.get_movie(movie_id=tmdb_movie_id)
