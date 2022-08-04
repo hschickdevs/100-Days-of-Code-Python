@@ -1,7 +1,7 @@
 from os import getenv
 
 # Blog Posts Config:
-BLOG_URL = "https://api.npoint.io/d9f83de217d4c0cc9a66"
+# BLOG_URL = "https://api.npoint.io/d9f83de217d4c0cc9a66" <- deprecated in favor of SQLITE database
 
 # SendGrid Config:
 SENDGRID_APIKEY = getenv("SENDGRID_APIKEY", default="<or_hardcode_here>")

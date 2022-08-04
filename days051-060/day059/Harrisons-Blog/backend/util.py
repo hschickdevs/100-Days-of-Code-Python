@@ -8,10 +8,6 @@ from .config import *
 sendgrid_cli = SendGridAPIClient(api_key=SENDGRID_APIKEY)
 
 
-def load_posts():
-    return requests.get(BLOG_URL).json()
-
-
 def send_contact_email(_subject: str, _message: str):
     formatted_mail = Mail(from_email=Email(SENDGRID_FROM_EMAIL),
                           to_emails=[SENDGRID_TO_EMAIL],

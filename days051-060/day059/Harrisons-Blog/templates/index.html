@@ -35,8 +35,10 @@
                         <hr>
                     {% endfor %}
                     
-                    <!-- Pager-->
-                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
+                    <!-- New Post -->
+                    <div class="clearfix">
+                        <a class="btn btn-primary float-right" href="{{ url_for('new_post') }}">Create New Post</a>
+                    </div>
                 </div>
             </div>
         </div>
