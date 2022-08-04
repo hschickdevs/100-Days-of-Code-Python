@@ -410,3 +410,8 @@ footer .copyright {
   font-size: 16px;
   padding: 25px 35px;
 }
+
+#delete-btn {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}

@@ -1,11 +1,13 @@
 from dotenv import load_dotenv
 load_dotenv()  # Setup environment variables before server starts
 
+import os
 from datetime import datetime as dt
 from flask import Flask, render_template, redirect, url_for, request
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
 from flask_ckeditor import CKEditor, CKEditorField
+from werkzeug.datastructures import MultiDict
 
 from backend.util import send_contact_email
 from backend.forms import CreatePostForm
@@ -80,11 +82,40 @@ def get_post(p_id: int):
     return render_template('post.html', post=load_posts(p_id))
 
 
+@app.route('/edit-post/<int:p_id>', methods=["GET", "POST"])
+def edit_post(p_id: int):
+    post = load_posts(p_id)
+    form = CreatePostForm(data=MultiDict(post.__dict__))
+    
+    if form.validate_on_submit():
+        post.title = form.title.data
+        post.subtitle = form.subtitle.data
+        post.body = form.body.data
+        post.author = form.author.data
+        post.img_url = form.img_url.data
+        db.session.commit()
+        
+        return redirect(url_for('home'))
+    
+    return render_template('new-post.html', form=form, editing=True, post_id=p_id)
+
+
+@app.route('/delete-post/<int:p_id>', methods=["GET"])
+def delete_post(p_id: int):
+    post = load_posts(p_id)
+    db.session.delete(post)
+    db.session.commit()
+    return redirect(url_for('home'))
+
+
 @app.route('/new-post', methods=["GET", "POST"])
 def new_post():
     form = CreatePostForm()
     if form.validate_on_submit():
-        date_now = dt.now().strftime("%B %d, %Y at %-I:%M%p %Z")
+        if os.name != "nt":
+            date_now = dt.now().strftime("%B %d, %Y at %-I:%M%p %Z")
+        else:
+            date_now = dt.now().strftime("%B %d, %Y at %I:%M%p %Z")
         post = BlogPost(id=create_id(),
                         title=form.title.data, 
                         subtitle=form.subtitle.data, 
@@ -96,7 +127,7 @@ def new_post():
         db.session.commit()
         return redirect(url_for('home'))
     
-    return render_template('new-post.html', form=form)
+    return render_template('new-post.html', form=form, editing=False)
 
 
 if __name__ == "__main__":

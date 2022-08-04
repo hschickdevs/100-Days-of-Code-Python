@@ -1,13 +1,21 @@
-# Harrison's Blog
+# Harrison's Developer Blog
 
 This unfinished-website is a refactor of a bootstrap template in order to run on a Flask Webapp.
 
-Articles are stored on the lighweight platform https://www.npoint.io/
+Articles are stored on a local sqlite database.
 
-Created with:
+📚 Tech Stack:
 - HTML, CSS, JS
 - Flask
 - Jinja
+- Sqlite / SQLAlchemy
+- Bootstrap
+
+Full CRUD operation:
+1. View all blog posts
+2. Update blog post
+3. Delete blog post
+4. Create blog post
 
 ___
 
