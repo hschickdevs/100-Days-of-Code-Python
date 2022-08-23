@@ -5,6 +5,7 @@ from sklearn.covariance import oas
 
 app = Flask(__name__)
 
+
 ##Connect to Database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cafes.sqlite'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
