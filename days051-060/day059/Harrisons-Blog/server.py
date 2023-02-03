@@ -1,16 +1,17 @@
 from dotenv import load_dotenv
+
 load_dotenv()  # Setup environment variables before server starts
 
 import os
 from datetime import datetime as dt
-from flask import Flask, render_template, redirect, url_for, request
+from flask import Flask, render_template, redirect, url_for, request, flash
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
 from flask_ckeditor import CKEditor, CKEditorField
 from werkzeug.datastructures import MultiDict
 
 from backend.util import send_contact_email
-from backend.forms import CreatePostForm
+from backend.forms import CreatePostForm, RegistrationForm
 
 ### APP SETUP
 app = Flask(__name__)
@@ -19,9 +20,10 @@ ckeditor = CKEditor(app)
 Bootstrap(app)
 
 ### DATABASE SETUP
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///backend/posts.sqlite'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///backend/db.sqlite'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
+
 
 class BlogPost(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -31,17 +33,25 @@ class BlogPost(db.Model):
     body = db.Column(db.Text, nullable=False)
     author = db.Column(db.String(250), nullable=False)
     img_url = db.Column(db.String(250), nullable=False)
-    
+
+
+class Users(db.Model):
+    username = db.Column(db.String(250), unique=True, nullable=False, primary_key=True)
+    email = db.Column(db.String(250), nullable=False)
+    password = db.Column(db.String(250), unique=True, nullable=False)
+
+
 def load_posts(id: int = None):
     if id is None:
         return BlogPost.query.order_by(BlogPost.id.desc()).all()
     else:
         return BlogPost.query.filter_by(id=id).first()
 
+
 def create_id():
     return BlogPost.query.order_by(BlogPost.id.desc()).first().id + 1
-    
-    
+
+
 ### APP ROUTES
 @app.route('/')
 def home():
@@ -68,7 +78,7 @@ def contact():
                   f"\nMessage:\n{request.form['message']}"
         send_contact_email(subject, message)
         return render_template('contact.html', form_submitted=True)
-    else:    
+    else:
         return render_template('contact.html', form_submitted=False)
 
 
@@ -86,7 +96,7 @@ def get_post(p_id: int):
 def edit_post(p_id: int):
     post = load_posts(p_id)
     form = CreatePostForm(data=MultiDict(post.__dict__))
-    
+
     if form.validate_on_submit():
         post.title = form.title.data
         post.subtitle = form.subtitle.data
@@ -94,9 +104,9 @@ def edit_post(p_id: int):
         post.author = form.author.data
         post.img_url = form.img_url.data
         db.session.commit()
-        
+
         return redirect(url_for('home'))
-    
+
     return render_template('new-post.html', form=form, editing=True, post_id=p_id)
 
 
@@ -117,17 +127,33 @@ def new_post():
         else:
             date_now = dt.now().strftime("%B %d, %Y at %I:%M%p %Z")
         post = BlogPost(id=create_id(),
-                        title=form.title.data, 
-                        subtitle=form.subtitle.data, 
-                        date=date_now, 
-                        body=form.body.data, 
-                        author=form.author.data, 
+                        title=form.title.data,
+                        subtitle=form.subtitle.data,
+                        date=date_now,
+                        body=form.body.data,
+                        author=form.author.data,
                         img_url=form.img_url.data)
         db.session.add(post)
         db.session.commit()
         return redirect(url_for('home'))
-    
+
     return render_template('new-post.html', form=form, editing=False)
+
+
+# Create a new route to register a new user
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    form = RegistrationForm(request.form)
+    if request.method == 'POST' and form.validate():
+        user = Users(username=form.username.data, 
+                    email=form.email.data,
+                    password=form.password.data)
+        db.session.add(user)
+        db.session.commit()
+        
+        flash(f'Hi {form.username.data}, thanks for registering!')
+        return redirect(url_for('home'))
+    return render_template('register.html', form=form)
 
 
 if __name__ == "__main__":

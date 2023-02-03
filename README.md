@@ -3,6 +3,8 @@
 🚨 The `requirements.txt` contains all the packages I have on my venv, so some packages aren't used at all in the course.
 
 🚨 This repository contains the codefiles for all 100 days of the course, but below are the links my projects that were the **_most interesting/most signifigant_** to me throughout the course:
+
+> All projects require Python `version >= 3.9` and the packages in their corresponding `requirements.txt` to run.
 ___
 
 ## days001-010
