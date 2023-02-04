@@ -8,7 +8,7 @@ from wtforms.validators import DataRequired, URL
 class CreatePostForm(FlaskForm):
     title = StringField("Post Title", validators=[DataRequired()])
     subtitle = StringField("Subtitle", validators=[DataRequired()])
-    author = StringField("Your Name", validators=[DataRequired()])
+    # author = StringField("Your Name", validators=[DataRequired()])  # Author is passed using the session
     img_url = StringField("Poster Image URL", validators=[DataRequired(), URL()])
     body = CKEditorField("Post Body", validators=[DataRequired()])
     submit = SubmitField("Publish Post")
@@ -24,3 +24,8 @@ class RegistrationForm(FlaskForm):
     confirm = PasswordField('Confirm Password')
     accept_tos = BooleanField('I Accept the Terms of Service', [validators.DataRequired()])
     submit = SubmitField("Sign Me Up!")
+    
+class LoginForm(FlaskForm):
+    username = StringField('Username', [validators.Length(min=4, max=25)])
+    password = PasswordField('Password', [validators.DataRequired()])
+    submit = SubmitField("Log In")
