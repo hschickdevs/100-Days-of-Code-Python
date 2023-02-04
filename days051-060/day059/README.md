@@ -11,13 +11,13 @@ Articles are stored on a local sqlite database.
 - Sqlite / SQLAlchemy
 - Bootstrap
 
-Full CRUD operation:
+🧰 Full CRUD operation:
 1. Create blog posts & comments 
 2. View all blog posts & comments
 3. Update/Edit blog posts & comments
 4. Delete blog post & comments
 
-User Sessions with Flask:
+🔐 User Sessions & Auth using Flask:
 - Login and Logout
 - Protect routes from unauthorized users
 - View blog posts and post comments by user
