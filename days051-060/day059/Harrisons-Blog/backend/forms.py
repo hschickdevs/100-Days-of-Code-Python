@@ -13,6 +13,10 @@ class CreatePostForm(FlaskForm):
     body = CKEditorField("Post Body", validators=[DataRequired()])
     submit = SubmitField("Publish Post")
 
+# COMMENT FORM
+class CommentForm(FlaskForm):
+    body = CKEditorField("Post a Comment", validators=[DataRequired()])
+    submit = SubmitField("Post Comment")
 
 class RegistrationForm(FlaskForm):
     username = StringField('Username', [validators.Length(min=4, max=25)])

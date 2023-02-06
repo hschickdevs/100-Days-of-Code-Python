@@ -1,4 +1,4 @@
-from backend.forms import CreatePostForm, RegistrationForm, LoginForm
+from backend.forms import *
 from backend.util import send_contact_email
 from backend.config import ADMINISTRATOR_USERNAME
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -8,6 +8,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_bootstrap import Bootstrap
 from flask_login import LoginManager, login_user, login_required, logout_user, current_user, UserMixin
 from flask import Flask, render_template, redirect, url_for, request, flash
+from flask_gravatar import Gravatar
 from datetime import datetime as dt
 import os
 from dotenv import load_dotenv
@@ -32,27 +33,49 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///backend/db.sqlite'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
+gravatar = Gravatar(app,
+                    size=100,
+                    rating='g',
+                    default='retro',
+                    force_default=False,
+                    force_lower=False,
+                    use_ssl=False,
+                    base_url=None)
+
 
 class User(UserMixin, db.Model):
+    __tablename__ = "user"
     username = db.Column(db.String(250), unique=True,
                          nullable=False, primary_key=True)
     email = db.Column(db.String(250), nullable=False)
     password = db.Column(db.String(250), unique=True, nullable=False)
-    posts = db.relationship('BlogPost', backref='user', lazy=True)
+    posts = db.relationship('BlogPost', backref='user')
+    comments = db.relationship('Comment', backref='user')
 
     def get_id(self):
         return self.username
 
 
 class BlogPost(db.Model):
-    __tablename__ = "blog_posts"
+    __tablename__ = "blogpost"
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(250), unique=True, nullable=False)
     subtitle = db.Column(db.String(250), nullable=False)
     date = db.Column(db.String(250), nullable=False)
     body = db.Column(db.Text, nullable=False)
     author = db.Column(db.String(250), db.ForeignKey('user.username'), nullable=False)
-    img_url = db.Column(db.String(250), nullable=False)
+    img_url = db.Column(db.String(250), nullable=True)
+    comments = db.relationship('Comment', backref='blogpost')
+    
+    
+class Comment(db.Model):
+    __tablename__ = "comment"
+    id = db.Column(db.Integer, primary_key=True)
+    body = db.Column(db.Text, nullable=False)
+    date = db.Column(db.String(250), nullable=False)
+    post = db.Column(db.Integer, db.ForeignKey('blogpost.id'), nullable=False)
+    author = db.Column(db.String(250), db.ForeignKey('user.username'), nullable=False)
+
 
 def load_posts(id: int = None):
     if id is None:
@@ -66,6 +89,13 @@ def create_id():
         return BlogPost.query.order_by(BlogPost.id.desc()).first().id + 1
     except AttributeError:
         # If there are no posts in the database, return 1
+        return 1
+    
+def create_comment_id():
+    try:
+        return Comment.query.order_by(Comment.id.desc()).first().id + 1
+    except AttributeError:
+        # If there are no comments in the database, return 1
         return 1
 
 # ADMINSTRATOR ONLY DECORATOR:
@@ -86,7 +116,8 @@ def load_user(username):
     # since the username is just the primary key of our user table, use it in the query for the user
     return User.query.get(str(username))
 
-# db.create_all()
+# CREATE ALL TABLES AUTOMATICALLY - WARNING - THIS WILL DELETE ALL DATA IN THE DATABASE
+db.create_all()
 
 # APP ROUTES
 @app.route('/')
@@ -119,9 +150,28 @@ def post():
     return render_template('post.html')
 
 
-@app.route('/post/<int:p_id>')
+@app.route('/post/<int:p_id>', methods=["GET", "POST"])
 def get_post(p_id: int):
-    return render_template('post.html', post=load_posts(p_id))
+    form = CommentForm()
+    if form.validate_on_submit():
+        if os.name != "nt":
+            date_now = dt.now().strftime("%B %d, %Y at %-I:%M%p %Z")
+        else:
+            date_now = dt.now().strftime("%B %d, %Y at %I:%M%p %Z")
+        comment = Comment(
+            id=create_comment_id(),
+            body=form.body.data,
+            date=date_now,
+            author=current_user.username,
+            post=p_id
+        )
+        db.session.add(comment)
+        db.session.commit()
+        
+        flash('Your comment has been posted!')
+        return redirect(url_for('get_post', p_id=p_id))
+    
+    return render_template('post.html', post=load_posts(p_id), form=form, comments=Comment.query.filter_by(post=p_id).all())
 
 
 @app.route('/edit-post/<int:p_id>', methods=["GET", "POST"])

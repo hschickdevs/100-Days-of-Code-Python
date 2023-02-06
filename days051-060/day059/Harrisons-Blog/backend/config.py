@@ -4,7 +4,7 @@ from os import getenv
 # BLOG_URL = "https://api.npoint.io/d9f83de217d4c0cc9a66" <- deprecated in favor of SQLITE database
 
 # ADMINISTRATOR CONFIG:
-ADMINISTRATOR_USERNAME = getenv("ADMINISTRATOR_USERNAME", default="<or_hardcode_here>")
+ADMINISTRATOR_USERNAME = getenv("ADMINISTRATOR_USERNAME", default="<or_hardcode_here>")  # Password = testpass
 
 # SendGrid Config:
 SENDGRID_APIKEY = getenv("SENDGRID_APIKEY", default="<or_hardcode_here>")

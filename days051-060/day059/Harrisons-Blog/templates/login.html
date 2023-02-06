@@ -30,7 +30,7 @@
                 {% with messages = get_flashed_messages() %}
                     {% if messages %}
                         <div class="notification" style="color:crimson">
-                            {{ messages[0] }}
+                            <i>{{ messages[0] }}</i>
                         </div>
                     {% endif %}
                 {% endwith %}
