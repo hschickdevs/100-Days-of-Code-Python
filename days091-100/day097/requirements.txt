@@ -1,0 +1,7 @@
+requests
+finnhub-python
+pandas
+openpyxl
+ratelimit
+pandas_market_calendars
+apscheduler

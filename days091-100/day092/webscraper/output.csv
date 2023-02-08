@@ -1,0 +1,199 @@
+Indicator,Request URL
+Two Crows,https://api.taapi.io/2crows?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Three Black Crows,https://api.taapi.io/3blackcrows?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Three Inside Up/Down,https://api.taapi.io/3inside?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Three-Line Strike,https://api.taapi.io/3linestrike?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Three Outside Up/Down,https://api.taapi.io/3outside?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Three Stars In The South,https://api.taapi.io/3starsinsouth?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Three Advancing White Soldiers,https://api.taapi.io/3whitesoldiers?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Abandoned Baby,https://api.taapi.io/abandonedbaby?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Absolute Value,https://api.taapi.io/abs?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Acceleration Bands,https://api.taapi.io/accbands?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Chaikin A/D Line,https://api.taapi.io/ad?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Arithmetic Add,https://api.taapi.io/add?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Chaikin A/D Oscillator,https://api.taapi.io/adosc?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Advance Block,https://api.taapi.io/advanceblock?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Average Directional Movement Index,https://api.taapi.io/adx?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Average Directional Movement Index Rating,https://api.taapi.io/adxr?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Awesome Oscillator,https://api.taapi.io/ao?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Absolute Price Oscillator,https://api.taapi.io/apo?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Aroon,https://api.taapi.io/aroon?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Aroon Oscillator,https://api.taapi.io/aroonosc?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Trigonometric ATan,https://api.taapi.io/atan?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Average True Range,https://api.taapi.io/atr?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Average Price,https://api.taapi.io/avgprice?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Bollinger Bands,https://api.taapi.io/bbands?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Bollinger Bands (another implementation),https://api.taapi.io/bbands2?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Belt-hold,https://api.taapi.io/belthold?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Beta,https://api.taapi.io/beta?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Balance Of Power,https://api.taapi.io/bop?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Breakaway,https://api.taapi.io/breakaway?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Candle,https://api.taapi.io/candle?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Candles,https://api.taapi.io/candles?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Commodity Channel Index,https://api.taapi.io/cci?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Ceil,https://api.taapi.io/ceil?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Choppiness Index (CHOP),https://api.taapi.io/chop?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Closing Marubozu,https://api.taapi.io/closingmarubozu?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Chaikin Money Flow,https://api.taapi.io/cmf?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Chande Momentum Oscillator,https://api.taapi.io/cmo?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Concealing Baby Swallow,https://api.taapi.io/concealbabyswall?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Coppock Curve,https://api.taapi.io/coppockcurve?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Pearson’s Correlation Coefficient,https://api.taapi.io/correl?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Trigonometric Cos,https://api.taapi.io/cos?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Counterattack,https://api.taapi.io/counterattack?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Dark Cloud Cover,https://api.taapi.io/darkcloudcover?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Double Exponential Moving Average,https://api.taapi.io/dema?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Arithmetic Div,https://api.taapi.io/div?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Directional Movement,https://api.taapi.io/dm?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&period=50
+Directional Movement Index,https://api.taapi.io/dmi?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Doji,https://api.taapi.io/doji?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Doji Star,https://api.taapi.io/dojistar?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Detrended Price Oscillator,https://api.taapi.io/dpo?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&period=50
+Dragonfly Doji,https://api.taapi.io/dragonflydoji?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Directional Movement Index,https://api.taapi.io/dx?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Exponential Moving Average,https://api.taapi.io/ema?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Ease of Movement,https://api.taapi.io/emv?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Engulfing Pattern,https://api.taapi.io/engulfing?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Evening Doji Star,https://api.taapi.io/eveningdojistar?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Evening Star,https://api.taapi.io/eveningstar?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Fibonacci Retracement,https://api.taapi.io/fibonacciretracement?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Fisher Transform,https://api.taapi.io/fisher?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&period=50
+Vector Floor,https://api.taapi.io/floor?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Forecast Oscillator,https://api.taapi.io/fosc?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&period=50
+Up/Down-gap side-by-side white lines,https://api.taapi.io/gapsidesidewhite?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Gravestone Doji,https://api.taapi.io/gravestonedoji?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Hammer,https://api.taapi.io/hammer?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Hanging Man,https://api.taapi.io/hangingman?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Harami Pattern,https://api.taapi.io/harami?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Harami Cross Pattern,https://api.taapi.io/haramicross?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+High-Wave Candle,https://api.taapi.io/highwave?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Hikkake Pattern,https://api.taapi.io/hikkake?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Modified Hikkake Pattern,https://api.taapi.io/hikkakemod?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Hull Moving Average,https://api.taapi.io/hma?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&period=50
+Homing Pigeon,https://api.taapi.io/homingpigeon?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Hilbert Transform – Dominant Cycle Period,https://api.taapi.io/ht_dcperiod?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Hilbert Transform – Dominant Cycle Phase,https://api.taapi.io/ht_dcphase?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Hilbert Transform – Phasor Components,https://api.taapi.io/ht_phasor?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Hilbert Transform – SineWave,https://api.taapi.io/ht_sine?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Hilbert Transform – Instantaneous Trendline,https://api.taapi.io/ht_trendline?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Hilbert Transform – Trend vs Cycle Mode,https://api.taapi.io/ht_trendmode?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Ichimoku Cloud,https://api.taapi.io/ichimoku?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Identical Three Crows,https://api.taapi.io/identical3crows?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+In-Neck Pattern,https://api.taapi.io/inneck?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Inverted Hammer,https://api.taapi.io/invertedhammer?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Kaufman Adaptive Moving Average,https://api.taapi.io/kama?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+KDJ,https://api.taapi.io/kdj?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Kicking,https://api.taapi.io/kicking?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Kicking – bull/bear determined by the longer marubozu,https://api.taapi.io/kickingbylength?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Klinger Volume Oscillator,https://api.taapi.io/kvo?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&short_period=9&long_period=30
+Ladder Bottom,https://api.taapi.io/ladderbottom?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Lantern,https://api.taapi.io/lantern?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Lanterns,https://api.taapi.io/lanterns?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Linear Regression,https://api.taapi.io/linearreg?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Linear Regression Angle,https://api.taapi.io/linearreg_angle?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Linear Regression Intercept,https://api.taapi.io/linearreg_intercept?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Linear Regression Slope,https://api.taapi.io/linearreg_slope?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Log Natural,https://api.taapi.io/ln?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Log10,https://api.taapi.io/log10?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Long Legged Doji,https://api.taapi.io/longleggeddoji?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Long Line Candle,https://api.taapi.io/longline?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Moving Average,https://api.taapi.io/ma?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Moving Average Convergence Divergence (MACD),https://api.taapi.io/macd?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+MACD with controllable MA type,https://api.taapi.io/macdext?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+MESA Adaptive Moving Average,https://api.taapi.io/mama?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Market Facilitation Index,https://api.taapi.io/marketfi?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Marubozu,https://api.taapi.io/marubozu?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Mass Index,https://api.taapi.io/mass?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&period=50
+Matching Low,https://api.taapi.io/matchinglow?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Mat Hold,https://api.taapi.io/mathold?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Highest value over a specified period,https://api.taapi.io/max?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Index of highest value over a specified period,https://api.taapi.io/maxindex?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Median Price,https://api.taapi.io/medprice?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Money Flow Index,https://api.taapi.io/mfi?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+MidPoint over period,https://api.taapi.io/midpoint?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Midpoint Price over period,https://api.taapi.io/midprice?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Lowest value over a specified period,https://api.taapi.io/min?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Index of lowest value over a specified period,https://api.taapi.io/minindex?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Lowest and highest values over a specified period,https://api.taapi.io/minmax?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Indexes of lowest and highest values over a specified period,https://api.taapi.io/minmaxindex?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Minus Directional Indicator,https://api.taapi.io/minus_di?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Minus Directional Movement,https://api.taapi.io/minus_dm?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Momentum,https://api.taapi.io/mom?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Morning Doji Star,https://api.taapi.io/morningdojistar?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Morning Star,https://api.taapi.io/morningstar?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Mesa Sine Wave,https://api.taapi.io/msw?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&period=50
+Vector Multiplication,https://api.taapi.io/mul?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Arithmetic Mult,https://api.taapi.io/mult?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Normalized Average True Range,https://api.taapi.io/natr?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Negative Volume Index,https://api.taapi.io/nvi?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+On Balance Volume,https://api.taapi.io/obv?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+On-Neck Pattern,https://api.taapi.io/onneck?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Price direction,https://api.taapi.io/pd?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Piercing Pattern,https://api.taapi.io/piercing?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Pivot points,https://api.taapi.io/pivotpoints?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Plus Directional Indicator,https://api.taapi.io/plus_di?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Plus Directional Movement,https://api.taapi.io/plus_dm?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Percentage Price Oscillator,https://api.taapi.io/ppo?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Prior Swing High,https://api.taapi.io/priorswinghigh?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Prior Swing Low,https://api.taapi.io/priorswinglow?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Positive Volume Index,https://api.taapi.io/pvi?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Qstick,https://api.taapi.io/qstick?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&period=50
+Rickshaw Man,https://api.taapi.io/rickshawman?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Rising/Falling Three Methods,https://api.taapi.io/risefall3methods?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Rate of change,https://api.taapi.io/roc?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Rate of change Percentage,https://api.taapi.io/rocp?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Rate of change ratio,https://api.taapi.io/rocr?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Rate of change ratio 100 scale,https://api.taapi.io/rocr100?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Round,https://api.taapi.io/round?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Relative Strength Index (RSI),https://api.taapi.io/rsi?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Parabolic SAR,https://api.taapi.io/sar?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Separating Lines,https://api.taapi.io/separatinglines?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Shooting Star,https://api.taapi.io/shootingstar?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Short Line Candle,https://api.taapi.io/shortline?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Trigonometric Sin,https://api.taapi.io/sin?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Simple Moving Average,https://api.taapi.io/sma?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Spinning Top,https://api.taapi.io/spinningtop?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Square Root,https://api.taapi.io/sqrt?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Stalled Pattern,https://api.taapi.io/stalledpattern?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Standard Deviation,https://api.taapi.io/stddev?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Stick Sandwich,https://api.taapi.io/sticksandwich?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Stochastic,https://api.taapi.io/stoch?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Stochastic Fast,https://api.taapi.io/stochf?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Stochastic Relative Strength Index,https://api.taapi.io/stochrsi?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Arithmetic Substraction,https://api.taapi.io/sub?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Summation,https://api.taapi.io/sum?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Super Trend,https://api.taapi.io/supertrend?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Triple Exponential Moving Average (T3),https://api.taapi.io/t3?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Takuri,https://api.taapi.io/takuri?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Trigonometric Tan,https://api.taapi.io/tan?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Trigonometric Tanh,https://api.taapi.io/tanh?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Tasuki Gap,https://api.taapi.io/tasukigap?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Tom Demark’s Sequential,https://api.taapi.io/tdsequential?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Triple Exponential Moving Average,https://api.taapi.io/tema?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Thrusting Pattern,https://api.taapi.io/thrusting?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Degree Conversion,https://api.taapi.io/todeg?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Radian Conversion,https://api.taapi.io/torad?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+True range,https://api.taapi.io/tr?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Triangular Moving Average,https://api.taapi.io/trima?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Tristar Pattern,https://api.taapi.io/tristar?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+TRIX,https://api.taapi.io/trix?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vector Truncate,https://api.taapi.io/trunc?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Time Series Forecast,https://api.taapi.io/tsf?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Typical Price,https://api.taapi.io/typprice?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Ultimate Oscillator,https://api.taapi.io/ultosc?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Unique 3 River,https://api.taapi.io/unique3river?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Upside Gap Two Crows,https://api.taapi.io/upsidegap2crows?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Variance,https://api.taapi.io/var?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Vertical Horizontal Filter,https://api.taapi.io/vhf?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&period=50
+Variable Index Dynamic Average,https://api.taapi.io/vidya?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&short_period=10&long_period=24&alpha=0
+Annualized Historical Volatility,https://api.taapi.io/volatility?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&period=50
+Volume Oscillator,https://api.taapi.io/vosc?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&short_period=10&long_period=50
+Volume Weighted Average Price (VWAP),https://api.taapi.io/vwap?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Volume Weighted Moving Average,https://api.taapi.io/vwma?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&period=50
+Williams Accumulation/Distribution (A/D),https://api.taapi.io/wad?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Weighted Close Price,https://api.taapi.io/wclprice?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Wilders Smoothing,https://api.taapi.io/wilders?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&period=50
+Williams’ %R,https://api.taapi.io/willr?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Weighted Moving Average,https://api.taapi.io/wma?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Upside/Downside Gap Three Methods,https://api.taapi.io/xsidegap3methods?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}
+Zero-Lag Exponential Moving Average,https://api.taapi.io/zlema?secret={api_key}&exchange=binance&symbol={symbol}/USDT&interval={interval}&period=50

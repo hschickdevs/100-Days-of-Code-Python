@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    body {
+      background-image: url('https://i.ibb.co/jvzxFDB/background.jpg');
+      background-size: cover;
+      height: 100vh;
+    }
+
+    .container {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    h1 {
+      color: white;
+      text-shadow: 1px 1px #333;
+    }
+
+    textarea {
+      width: 500px;
+      height: 200px;
+      padding: 10px;
+      font-size: 18px;
+      margin-top: 20px;
+      border: none;
+      background-color: rgba(255, 255, 255, 0.9);
+      color: black;
+    }
+
+    .message {
+      display: none;
+      color: red;
+      margin-top: 20px;
+    }
+  </style>
+  <title>Disappearing Text</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Disappearing Text</h1>
+    <textarea id="text-input" placeholder="Starting typing..."></textarea>
+    <div class="message">Please type something in the text box, or your text will be deleted!</div>
+  </div>
+  <script>
+    const textInput = document.getElementById("text-input");
+    const message = document.querySelector(".message");
+
+    let timeoutId;
+    let clrTimeoutId;
+    textInput.addEventListener("input", () => {
+      clearTimeout(timeoutId);
+      clearTimeout(clrTimeoutId);
+      message.style.display = "none";
+      timeoutId = setTimeout(() => {
+        message.style.display = "block";
+      }, 5000);
+      clrTimeoutId = setTimeout(() => {
+        textInput.value = "";
+      }, 10000);
+    });
+  </script>
+</body>
+</html>
