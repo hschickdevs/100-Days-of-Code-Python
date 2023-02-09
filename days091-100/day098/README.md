@@ -4,7 +4,7 @@ _Use space mission data from 1957 onwards to analyse and visualise trends over t
 
 # Analyzing and Visualizing the Space Race since 1957
 
-## Concepts Practised
+## Concepts Practiced
 - Multi-Line Charts with Matplotib
 - Removing NaN Values and Duplicates
 - Create Pie and Donut Charts
