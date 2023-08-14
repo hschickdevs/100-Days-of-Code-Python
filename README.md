@@ -7,13 +7,13 @@
 
     I would highly recommend this course to anyone that I know that is considering learning Python, or somebody who is even just considering learning to code in general. The knowledge that this course supplied opened doors for me and _accomplished a life goal of mine that I wasn't sure that I'd ever accomplish_. For a full list of concepts and techniques covered in the course, please see the [course syllabus](./syllabus.pdf), or visit the course on [Udemy](https://www.udemy.com/course/100-days-of-code/).
 
-🚨 While this repository's filesystem contains the project files that I completed for **all** 100 days of the course, below are the links the projects that were the **_most interesting/signifigant_** to me throughout the course:
-
 🧰 Local setup instructions and the `requirements.txt` file are included in each project, if you'd like to try any for yourself. 
 
 🏁 [Completed](./certificate.pdf) on Feb 9, 2023.
 
 👤 If anyone needs help with the course, please feel free to contact me on [**Telegram**](https://t.me/hschickdevs).
+
+🚨 While this repository's filesystem contains the project files that I completed for **all** 100 days of the course, below are the links the projects that were the **_most interesting/signifigant_** to me throughout the course:
 
 > All projects require Python `version >= 3.9` and the packages in their corresponding package requirements to run.
 ___
